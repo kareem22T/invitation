@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxury Invitation Card</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="invitation-card">
+    <div class="card-header" style="text-align: center;">
+		<img src="./logo.png" style="width: 210px; margin: auto;"/>
+      <h1 style="margin-bottom: -3px;">You're Invited!</h1>
+      <p>To a luxurious event you won't forget.</p>
+    </div>
+    <div class="card-body">
+		<div class="form-container">
+			<form class="form">
+			  <div class="form-group">
+				<label for="name">Your Name</label>
+				<input type="text" id="name" name="name" required="">
+			  </div>
+			  <div class="form-group">
+				<label for="name">Phone Number</label>
+				<input type="text" id="phone" name="phone" required="">
+			  </div>
+			  <div class="buttons">
+				  <button class="btn">
+					  <svg height="24" width="24" fill="#FFFFFF" viewBox="0 0 24 24" data-name="Layer 1" id="Layer_1" class="sparkle">
+						  <path fill="white" d="M10,21.236,6.755,14.745.264,11.5,6.755,8.255,10,1.764l3.245,6.491L19.736,11.5l-6.491,3.245ZM18,21l1.5,3L21,21l3-1.5L21,18l-1.5-3L18,18l-3,1.5ZM19.333,4.667,20.5,7l1.167-2.333L24,3.5,21.667,2.333,20.5,0,19.333,2.333,17,3.5Z"></path>
+					  </svg>
+				  
+					  <span class="text" style="color: white;">Accept</span>
+				  </button>
+				  <button class="btn danger">
+					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-x-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFFFFF" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+						<path fill="#aaaaaa" d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-6.489 5.8a1 1 0 0 0 -1.218 1.567l1.292 1.293l-1.292 1.293l-.083 .094a1 1 0 0 0 1.497 1.32l1.293 -1.292l1.293 1.292l.094 .083a1 1 0 0 0 1.32 -1.497l-1.292 -1.293l1.292 -1.293l.083 -.094a1 1 0 0 0 -1.497 -1.32l-1.293 1.292l-1.293 -1.292l-.094 -.083z" stroke-width="0" fill="currentColor" />
+					  </svg>				  
+					  <span class="text" style="color: #aaaaaa;">Decline</span>
+				  </button>
+			  </div>
+			</form>
+		  </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
